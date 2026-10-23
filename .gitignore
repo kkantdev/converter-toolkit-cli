@@ -1,0 +1,114 @@
+# =============================================================================
+# Python Production .gitignore - File Toolkit CLI
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller / cx_Freeze
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage / lint reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+cover/
+
+# Virtual Environments
+venv/
+venv*/
+.venv/
+.venv*/
+env/
+env*/
+ENV/
+env.bak/
+venv.bak/
+test_env/
+test_env*/
+
+# IDE and Code Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary Office locks & backup files (Word/Excel/PPTX)
+~$*
+*.~*
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Local / Temporary Test Outputs & Conversions
+*_cv[0-9]*.*
+*_compressed.*
+test_cv*.*
+test_compressed*.*
+large_test*.*
+transparent.jpg
+transparent.png
+test.jpg
+test.png
+test.webp
+test.txt
+test_output/
+*.tmp
+*.temp
